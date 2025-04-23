@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>墾丁圖片旅遊網</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #009688;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+        nav {
+            background-color: #00796b;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin: 40px 0 20px;
+            text-align: center;
+            color: #00796b;
+        }
+        .destination, .activity {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .destination img, .activity img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .destination-text, .activity-text {
+            flex: 1;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-left: 20px;
+        }
+        .destination-text h3, .activity-text h3 {
+            font-size: 1.5rem;
+            color: #00796b;
+        }
+        .destination-text p, .activity-text p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #00796b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>墾丁旅遊圖片網</h1>
+    <p>探索墾丁的美麗景點和活動</p>
+</header>
+
+<nav>
+    <a href="#destinations">熱門景點</a>
+    <a href="#activities">旅遊活動</a>
+    <a href="#gallery">圖片集</a>
+</nav>
+
+<div class="container">
+
+    <!-- 景點介紹區 -->
+    <section id="destinations">
+        <h2 class="section-title">墾丁熱門景點</h2>
+
+        <div class="destination">
+            <img src="z.jpg" alt="墾丁國家公園">
+            <div class="destination-text">
+                <h3>墾丁國家公園</h3>
+                <p>墾丁國家公園是台灣最著名的海洋公園之一，擁有美麗的沙灘、珊瑚礁及多樣的野生動植物。這裡是自然愛好者的天堂。</p><a href="https://recreation.forest.gov.tw/Forest/RA?typ_id=0600002">這個連結</a>
+            </div>
+        </div>
+
+        <div class="destination">
+            <img src="o.jpg" alt="龍鑾潭">
+            <div class="destination-text">
+                <h3>龍鑾潭</h3>
+                <p>龍鑾潭以其清澈的湖水和迷人的景色著稱，是放鬆身心和享受寧靜的好地方。適合散步和泛舟。</p><a href="https://www.ktnp.gov.tw/News_Content4.aspx?n=6955A893D911FF23&sms=C3ADDEFDE191C51D&s=75252D2E3FF8E9E3">這個連結</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 旅遊活動區 -->
+    <section id="activities">
+        <h2 class="section-title">墾丁旅遊活動</h2>
+
+        <div class="activity">
+            <img src="a.jpg" alt="水上活動">
+            <div class="activity-text">
+                <h3>水上活動</h3>
+                <p>墾丁擁有許多水上活動選項，包括衝浪、浮潛、潛水和摩托艇等。這裡的海水清澈透明，完美適合水上運動。</p><a href="https://ouokt.com/category.php?C=3">這個連結</a>
+            </div>
+        </div>
+
+        <div class="activity">
+            <img src="b.jpg" alt="夜市">
+            <div class="activity-text">
+                <h3>墾丁夜市</h3>
+                <p>墾丁夜市是當地最具特色的市集，擁有各式各樣的美食、紀念品和遊戲，是夜間放鬆和享受美食的好地方。</p><a href="https://www.i-pingtung.com/pingtungattractions/%E5%A2%BE%E4%B8%81%E5%A4%A7%E8%A1%97%E5%A4%9C%E5%B8%82">這個連結</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 圖片集區 -->
+    <section id="gallery">
+        <h2 class="section-title">墾丁美麗圖片集</h2>
+        <div class="gallery-images">
+            <img src="c.jpg" alt="墾丁風景" />
+            <img src="d.jpg" alt="海岸景色" />
+            <img src="e.jpg" alt="海景房" />
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 墾丁旅遊網 | 聯絡我們: info@kentingtour.com</p>
+</footer>
+
+</body>
+</html>
